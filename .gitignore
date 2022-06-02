@@ -55,6 +55,8 @@ project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
 *.json
+*.db
+*.traceevents
 
 *.dll
 *_i.c
