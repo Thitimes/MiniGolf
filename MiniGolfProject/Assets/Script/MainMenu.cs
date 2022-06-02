@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -19,5 +20,10 @@ public class MainMenu : MonoBehaviour
         {
             buttonAddPlayer.interactable = false;
         }
+    }
+
+    public void ButtonStart()
+    {
+        SceneManager.LoadScene(playerRecord.level[0]);
     }
 }

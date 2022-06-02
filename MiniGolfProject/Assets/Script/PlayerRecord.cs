@@ -11,6 +11,7 @@ public class PlayerRecord : MonoBehaviour
     private void OnEnable()
     {
         playerList = new List<Player>();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void AddPlayer(string name)

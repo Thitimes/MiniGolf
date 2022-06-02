@@ -13,6 +13,7 @@ public class BallController : MonoBehaviour
     public Slider powerSlider;
     public TextMeshProUGUI puttsCount;
     public float minHoleTime;
+    public Transform startPos;
 
     private int putts;
     private Rigidbody ball;
@@ -138,5 +139,18 @@ public class BallController : MonoBehaviour
             ball.velocity = Vector3.zero;
             ball.angularVelocity = Vector3.zero;
         }
+    }
+    public void SetUpBall(Color color)
+    {
+        transform.position = startPos.position;
+        angle = startPos.rotation.eulerAngles.y;
+        ball.velocity = Vector3.zero;
+        ball.angularVelocity = Vector3.zero;
+
+        GetComponent<MeshRenderer>().material.SetColor("_Color", color);
+        line.material.SetColor("_Color", color);
+        line.enabled = true;
+        putts = 0;
+        puttsCount.text = "0";
     }
 }
