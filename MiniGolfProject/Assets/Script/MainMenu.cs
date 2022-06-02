@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public TMP_InputField inputName;
+    public PlayerRecord playerRecord;
+    public Button buttonStart;
+    public Button buttonAddPlayer;
+    public void ButtonAddPlayer()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        playerRecord.AddPlayer(inputName.text);
+        buttonStart.interactable = true;
+        inputName.text = "";
+        if(playerRecord.playerList.Count == playerRecord.playerColours.Length)
+        {
+            buttonAddPlayer.interactable = false;
+        }
     }
 }

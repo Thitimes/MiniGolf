@@ -774,3 +774,185 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1404ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.3 KB). Loaded Objects now: 3895.
+Memory consumption went from 121.9 MB to 121.8 MB.
+Total: 5.075900 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.197800 ms MarkObjects: 4.185900 ms  DeleteObjects: 0.399600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012900 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (551ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.1 KB). Loaded Objects now: 3898.
+Memory consumption went from 121.9 MB to 121.8 MB.
+Total: 3.102000 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.165300 ms MarkObjects: 2.542400 ms  DeleteObjects: 0.122500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7292.749362 seconds.
+  path: Assets/Models/Nature/mushroom_tan.fbx
+  artifactKey: Guid(b93b8a5601d18e14e900962ef54bfa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/mushroom_tan.fbx using Guid(b93b8a5601d18e14e900962ef54bfa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467c28a99679268ce27b1d13320d36bc') in 0.161905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Nature/stone_largeB.fbx
+  artifactKey: Guid(0c057eb6077fc2e438c7894cfe7cf846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/stone_largeB.fbx using Guid(0c057eb6077fc2e438c7894cfe7cf846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3facd9c17e184b1c87a10d65a6b7bb5') in 0.036801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Nature/stone_tallJ.fbx
+  artifactKey: Guid(ed2d7abf7be593c409a55ba9d6bc8889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/stone_tallJ.fbx using Guid(ed2d7abf7be593c409a55ba9d6bc8889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f19b2c1ae014214f36e085a4ca6e14') in 0.037220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Nature/statue_head.fbx
+  artifactKey: Guid(c04b0276b5d163f468d7d52c66c72450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/statue_head.fbx using Guid(c04b0276b5d163f468d7d52c66c72450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb774969fa1567a6fb11095a862fe0b') in 0.044420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Nature/rock_tallJ.fbx
+  artifactKey: Guid(4d04a4265071da44aaba141a8bee6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/rock_tallJ.fbx using Guid(4d04a4265071da44aaba141a8bee6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce602751048086370a0113efcc2985dd') in 0.041124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Nature/stone_largeD.fbx
+  artifactKey: Guid(1e4950b5cbecf56499ee44c11a8ea7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/stone_largeD.fbx using Guid(1e4950b5cbecf56499ee44c11a8ea7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46fc351e98b5445edcfdcd8c2c78730') in 0.034437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Nature/rock_tallG.fbx
+  artifactKey: Guid(5ac3a67094bf33449b76cf7dd976bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/rock_tallG.fbx using Guid(5ac3a67094bf33449b76cf7dd976bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b19734ca373f77b74d2177929e88c01') in 0.045622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Nature/stone_tallA.fbx
+  artifactKey: Guid(7a4c74458061ef3459b90ec7c1860354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/stone_tallA.fbx using Guid(7a4c74458061ef3459b90ec7c1860354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3919e8f417cf355d39efbf9cc748ea72') in 0.034369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Nature/rock_tallI.fbx
+  artifactKey: Guid(e3b65c396459c554087afa97a42feda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/rock_tallI.fbx using Guid(e3b65c396459c554087afa97a42feda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12a8e913141e9aadfc741c94c413681') in 0.048410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Nature/stone_tallC.fbx
+  artifactKey: Guid(e0704c74aa950924d8d0e8ad35440f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/stone_tallC.fbx using Guid(e0704c74aa950924d8d0e8ad35440f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0899da2418bbdabdb361381a71014d6') in 0.037730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Nature/rock_tallE.fbx
+  artifactKey: Guid(8c339ffaa7624f64d94ab1d10154f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/rock_tallE.fbx using Guid(8c339ffaa7624f64d94ab1d10154f115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dc7ea7b81b16c2a520ed9403ae89d3') in 0.048668 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -8,6 +8,16 @@ public class PlayerRecord : MonoBehaviour
     public string[] level;
     public Color[] playerColours;
 
+    private void OnEnable()
+    {
+        playerList = new List<Player>();
+    }
+
+    public void AddPlayer(string name)
+    {
+        playerList.Add(new Player(name, playerColours[playerList.Count],level.Length));
+        
+    }
 
     public class Player
     {
