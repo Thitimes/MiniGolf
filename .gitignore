@@ -316,3 +316,17 @@ upm-ci~/
 test-results/
 .download
 .bin
+*.digestcache
+*.dag_derived
+*.digestcache
+*.state
+MiniGolfProject/Library/Bee/TundraBuildState.state.map
+MiniGolfProject/Library/Bee/TundraBuildState.state
+MiniGolfProject/Library/Bee/tundra.digestcache
+MiniGolfProject/Library/Bee/1900b0aE.dag_derived
+MiniGolfProject/Library/ArtifactDB
+MiniGolfProject/Library/expandedItems
+MiniGolfProject/Library/InspectorExpandedItems.asset
+MiniGolfProject/Library/LastSceneManagerSetup.txt
+MiniGolfProject/Library/SceneVisibilityState.asset
+MiniGolfProject/Library/SourceAssetDB
