@@ -57,6 +57,7 @@ artifacts/
 *.json
 *.db
 *.traceevents
+*.dag
 
 *.dll
 *_i.c
