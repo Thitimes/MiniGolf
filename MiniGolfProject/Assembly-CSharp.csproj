@@ -60,6 +60,7 @@
     <Compile Include="Assets\Script\MainMenu.cs" />
     <Compile Include="Assets\Script\PlayerRecord.cs" />
     <Compile Include="Assets\Script\levelmanager.cs" />
+    <Compile Include="Assets\Script\CameraRotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

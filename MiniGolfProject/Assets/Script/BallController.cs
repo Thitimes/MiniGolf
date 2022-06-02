@@ -14,6 +14,7 @@ public class BallController : MonoBehaviour
     public TextMeshProUGUI puttsCount;
     public float minHoleTime;
     public Transform startPos;
+    public levelmanager levelmanager;
 
     private int putts;
     private Rigidbody ball;
@@ -30,6 +31,7 @@ public class BallController : MonoBehaviour
         line = GetComponent<LineRenderer>();
         putts = 0;
         holeTime = 0;
+        startPos.transform.GetComponent<MeshRenderer>().enabled = false;
     }
     private void Update()
     {
@@ -100,21 +102,22 @@ public class BallController : MonoBehaviour
         putts++;
         puttsCount.text = putts.ToString();
     }
+    
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "hole")
         {
-            CountHoleTime();
+            LeftHole();
         }
+            
     }
-
     private void CountHoleTime()
     {
-        holeTime += minHoleTime;
+        holeTime += Time.deltaTime;
+
         if(holeTime >= minHoleTime)
         {
-            Debug.Log("In the Hole It Only took me " + putts + "putts to get it in");
-            //player has finish, move on to the next player
+            levelmanager.NextPlayer(putts);
             holeTime = 0;
         }
     }
@@ -123,7 +126,8 @@ public class BallController : MonoBehaviour
     {
         if(other.tag == "hole")
         {
-            LeftHole();
+              CountHoleTime();
+            
         }
     }
 
@@ -142,7 +146,7 @@ public class BallController : MonoBehaviour
     }
     public void SetUpBall(Color color)
     {
-        transform.position = startPos.position;
+        this.transform.position = startPos.position;
         angle = startPos.rotation.eulerAngles.y;
         ball.velocity = Vector3.zero;
         ball.angularVelocity = Vector3.zero;
