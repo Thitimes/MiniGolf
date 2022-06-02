@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Game Project 2021/MiniGolf/MiniGolfProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56686
+Successfully changed project path to: D:/Game Project 2021/MiniGolf/MiniGolfProject
+D:/Game Project 2021/MiniGolf/MiniGolfProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Project 2021/MiniGolf/MiniGolfProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   NVIDIA
+    VRAM:     8081 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007770 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (110ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005671 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.3 KB). Loaded Objects now: 3833.
+Memory consumption went from 118.1 MB to 117.9 MB.
+Total: 4.234500 ms (FindLiveObjects: 0.379300 ms CreateObjectMapping: 0.307700 ms MarkObjects: 3.433400 ms  DeleteObjects: 0.112600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4077.341198 seconds.
+  path: Assets/Models/Nature/cliff_blockCave_rock.fbx
+  artifactKey: Guid(80ebddea674a01c478dfcaf0576f014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_blockCave_rock.fbx using Guid(80ebddea674a01c478dfcaf0576f014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc34fba47a9be32904642922081e58e9') in 0.219876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models
+  artifactKey: Guid(24787b990def58a44a2034dbe39f9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(24787b990def58a44a2034dbe39f9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e14e8e9e8193a5cf35dd801677d13b') in 0.011828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/Nature/bridge_woodRound.fbx
+  artifactKey: Guid(f1b418e4f968fa54ca7a99df3ad8aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_woodRound.fbx using Guid(f1b418e4f968fa54ca7a99df3ad8aab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f41d758a9ac7883fbcd69e041ea0349') in 0.043527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Nature/bridge_stoneRound.fbx
+  artifactKey: Guid(fc724428c03acf749b02860eaf9d8614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_stoneRound.fbx using Guid(fc724428c03acf749b02860eaf9d8614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81434c7d0ad441d0c791d03ec06ad40b') in 0.029875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Nature/bridge_woodRoundNarrow.fbx
+  artifactKey: Guid(6d5dad656dbef704d9bc0d09b12a6781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_woodRoundNarrow.fbx using Guid(6d5dad656dbef704d9bc0d09b12a6781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb5abf2aeb684eb462f807e8b704720') in 0.038793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Nature/campfire_planks.fbx
+  artifactKey: Guid(9342a641cd1ea9246bc6c2ae1ffc142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/campfire_planks.fbx using Guid(9342a641cd1ea9246bc6c2ae1ffc142a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99daf5845d080eedecea1420e1e96c5e') in 0.026792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Nature/cliff_blockQuarter_stone.fbx
+  artifactKey: Guid(d95c885cc96952f4e93264a83bed6f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_blockQuarter_stone.fbx using Guid(d95c885cc96952f4e93264a83bed6f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0681f14380fffb8f17344b5ccc9e0ceb') in 0.029154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Nature/cliff_blockCave_stone.fbx
+  artifactKey: Guid(c94ecb1523a8dd743b5bbaf1ba9ec1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_blockCave_stone.fbx using Guid(c94ecb1523a8dd743b5bbaf1ba9ec1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851ac640957acefdcd0a695dff41a0f1') in 0.028264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Nature/cliff_blockHalf_rock.fbx
+  artifactKey: Guid(d81d3b7b7bbd3f5469127aa64f57af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_blockHalf_rock.fbx using Guid(d81d3b7b7bbd3f5469127aa64f57af81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198075fcb42e0f4856d684eec35bb641') in 0.032804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Nature/canoe.fbx
+  artifactKey: Guid(a35828242ea2eb24286c6c73e0b5e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/canoe.fbx using Guid(a35828242ea2eb24286c6c73e0b5e8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508c3d5716636ad30780d1993b2b0f8e') in 0.035480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Nature/campfire_stones.fbx
+  artifactKey: Guid(b0d86b42f3e35f441a4d8d70d143b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/campfire_stones.fbx using Guid(b0d86b42f3e35f441a4d8d70d143b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68080aaaa78b6ec71c1d1e2bc3ea8cc2') in 0.027970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Nature/bridge_side_stone.fbx
+  artifactKey: Guid(c1f44621cfc1b5640a5791e806bf7f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_side_stone.fbx using Guid(c1f44621cfc1b5640a5791e806bf7f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366d9af7e096c280a003986c09b68c6a') in 0.030939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Nature/cliff_blockSlopeHalfWalls_rock.fbx
+  artifactKey: Guid(47082cb720b85e24db7505f8d4b9ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_blockSlopeHalfWalls_rock.fbx using Guid(47082cb720b85e24db7505f8d4b9ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f910d388f08043f5d26f89b57d4d36') in 0.032490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Nature/bridge_center_wood.fbx
+  artifactKey: Guid(ea46f063d4200cb4d8c963bbd5d94237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_center_wood.fbx using Guid(ea46f063d4200cb4d8c963bbd5d94237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7471053e1429f74cccd9494968bdb2') in 0.036968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Nature/bridge_center_stoneRound.fbx
+  artifactKey: Guid(957c5810bff38e44284483995c11f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_center_stoneRound.fbx using Guid(957c5810bff38e44284483995c11f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bc7b29403ec529c0fe7913acdbf15c') in 0.029563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Nature/bridge_side_woodRound.fbx
+  artifactKey: Guid(28a55cd1522901e489ee73b2dc695bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_side_woodRound.fbx using Guid(28a55cd1522901e489ee73b2dc695bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9f319909a5007b9a3aa7a182f064cb') in 0.039986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Nature/cactus_tall.fbx
+  artifactKey: Guid(17f4d61590020864298be18138f3e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cactus_tall.fbx using Guid(17f4d61590020864298be18138f3e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcac3e501e5ccec4c84ae3e3828e47c3') in 0.022452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Nature/bridge_woodNarrow.fbx
+  artifactKey: Guid(2f10a47865265774ab6083bbcbacd4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_woodNarrow.fbx using Guid(2f10a47865265774ab6083bbcbacd4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546f539e1e913f1fd8f8bccbd9f1733a') in 0.066985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Nature/bridge_stone.fbx
+  artifactKey: Guid(37e6c07fcb8645542824c351c5ca08ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_stone.fbx using Guid(37e6c07fcb8645542824c351c5ca08ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32efdaf4d11c32729be97ccc4f2ff12d') in 0.035818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Nature/bridge_stoneNarrow.fbx
+  artifactKey: Guid(676630d6c2350ed4ab00d145f45d4e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_stoneNarrow.fbx using Guid(676630d6c2350ed4ab00d145f45d4e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5605422c9d18802c531f6ec62c690db1') in 0.035288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Nature/cliff_cave_stone.fbx
+  artifactKey: Guid(c81e5af3ffe2b104a8fedfdd9580ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_cave_stone.fbx using Guid(c81e5af3ffe2b104a8fedfdd9580ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b47c078c10ba6ae9155bcc6bc10d9') in 0.025306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Nature/canoe_paddle.fbx
+  artifactKey: Guid(a65256f667b96e8438607ac0044c1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/canoe_paddle.fbx using Guid(a65256f667b96e8438607ac0044c1411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bedb37b92a7d8b68e35ed3e0c8aad8d') in 0.028696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Nature/bed_floor.fbx
+  artifactKey: Guid(58d4e3796e2a6cb419f2a987fdbb51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bed_floor.fbx using Guid(58d4e3796e2a6cb419f2a987fdbb51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c452130920f0b5ba1a9cea123fc26b65') in 0.035904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Nature/bridge_stoneRoundNarrow.fbx
+  artifactKey: Guid(d38f5bd5c5db72d4b9a3176a3c7f6d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_stoneRoundNarrow.fbx using Guid(d38f5bd5c5db72d4b9a3176a3c7f6d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa8fb4e3da670c11ad8b1909f9356e4') in 0.031598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Nature/campfire_logs.fbx
+  artifactKey: Guid(c59669223e25e7e4692fc1971bf60185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/campfire_logs.fbx using Guid(c59669223e25e7e4692fc1971bf60185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f529ffc05726cd8fba65ddbc7d9e289d') in 0.029105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Nature/campfire_bricks.fbx
+  artifactKey: Guid(fe7f64ce52d447b448a05eb02ce305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/campfire_bricks.fbx using Guid(fe7f64ce52d447b448a05eb02ce305be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffbfe6915e34fea9efbb1aa57abfe0') in 0.023098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Nature/bridge_side_wood.fbx
+  artifactKey: Guid(0c9c36b2f86d2784b8e52ddaf5bf99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/bridge_side_wood.fbx using Guid(0c9c36b2f86d2784b8e52ddaf5bf99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0efcc8dce0088a837119d2520ce5591') in 0.036374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.080437 seconds.
+  path: Assets/Models/Nature/cliff_corner_stone.fbx
+  artifactKey: Guid(317093aaec348774983b69ddeece37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_corner_stone.fbx using Guid(317093aaec348774983b69ddeece37e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae4a65b8eb275d55b9e39c2d554a0d8') in 0.022467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Nature/cliff_cornerInnerLarge_stone.fbx
+  artifactKey: Guid(0045fde760d4aa34499d5ba53774c871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_cornerInnerLarge_stone.fbx using Guid(0045fde760d4aa34499d5ba53774c871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b47ae6f59623cfb220e9b912e7543') in 0.023442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Nature/cliff_rock.fbx
+  artifactKey: Guid(40c17a736a8d40a4db677152686bef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_rock.fbx using Guid(40c17a736a8d40a4db677152686bef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41b4196eea96c5b1b61b7779eaf5e07') in 0.025134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Nature/cliff_steps_stone.fbx
+  artifactKey: Guid(d88295fe6b26a4e45a9437fcd47789d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_steps_stone.fbx using Guid(d88295fe6b26a4e45a9437fcd47789d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0d9c144a416f58d3bb94ee328e28f9') in 0.032890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Nature/cliff_halfCornerInner_rock.fbx
+  artifactKey: Guid(036b523f62853fc43a30e543d55541ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_halfCornerInner_rock.fbx using Guid(036b523f62853fc43a30e543d55541ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e68a000083203f5379ab1ad3c81a47e') in 0.039090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Nature/cliff_steps_rock.fbx
+  artifactKey: Guid(2863e679d8b7bc447b4bb881cdce24be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_steps_rock.fbx using Guid(2863e679d8b7bc447b4bb881cdce24be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aae6a56b5881ccc057d529d40b4b6a4') in 0.033695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Nature/cliff_halfCorner_rock.fbx
+  artifactKey: Guid(1b1446705fa608445a8ec37f58f82f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_halfCorner_rock.fbx using Guid(1b1446705fa608445a8ec37f58f82f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8d10df38efe609d17c7ef534504eaa') in 0.034406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Nature/cliff_half_stone.fbx
+  artifactKey: Guid(cf690a5d324d6af4ebbc2f40238b2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_half_stone.fbx using Guid(cf690a5d324d6af4ebbc2f40238b2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870bc01e18ec5401d5b27e2eeded2b01') in 0.041945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Nature/cliff_large_stone.fbx
+  artifactKey: Guid(ecb540f4966a78e41bc545e672fbdd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_large_stone.fbx using Guid(ecb540f4966a78e41bc545e672fbdd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765070bd238f6d27ae2612209675d316') in 0.023805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Nature/cliff_halfCornerInner_stone.fbx
+  artifactKey: Guid(14752e6b63728cf46a6910a1e890d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_halfCornerInner_stone.fbx using Guid(14752e6b63728cf46a6910a1e890d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e47c0280662961ccbe1b5873c22abc') in 0.038850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Nature/cliff_stone.fbx
+  artifactKey: Guid(e9477b3ab6e32f84b9749808bc4345d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_stone.fbx using Guid(e9477b3ab6e32f84b9749808bc4345d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c109f003f9e51c7936a660e649de97d') in 0.023611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Nature/cliff_topDiagonal_stone.fbx
+  artifactKey: Guid(79c886a1edf51164392eddda7abdd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_topDiagonal_stone.fbx using Guid(79c886a1edf51164392eddda7abdd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f2c0657adf8a9bd5bbf2e2e91217fb') in 0.030466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Nature/cliff_halfCorner_stone.fbx
+  artifactKey: Guid(eb1a0a6cc913d1149b433b5a39d10493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_halfCorner_stone.fbx using Guid(eb1a0a6cc913d1149b433b5a39d10493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2581d8b613be1d6a796d791acc95cfc') in 0.032062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Nature/cliff_cornerLarge_rock.fbx
+  artifactKey: Guid(33475a9a1f9513f49b51b6a808ce6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_cornerLarge_rock.fbx using Guid(33475a9a1f9513f49b51b6a808ce6c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4661b7e40e1e7c76993d0db27ef7bc31') in 0.028310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Nature/cliff_cornerInner_stone.fbx
+  artifactKey: Guid(a8c0fd9bf3bcfb840bcfddfb5e5244e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_cornerInner_stone.fbx using Guid(a8c0fd9bf3bcfb840bcfddfb5e5244e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca872cd53a602c4d307efdcfa36767f') in 0.024373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Nature/cliff_cornerTop_stone.fbx
+  artifactKey: Guid(8e8da6ec33199934ea8020cfaecd019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Nature/cliff_cornerTop_stone.fbx using Guid(8e8da6ec33199934ea8020cfaecd019e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e8f3b616aaca03acc928659c6f9738') in 0.027924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.195311 seconds.
+  path: Assets/Models/MiniGolf/ball_green.fbx
+  artifactKey: Guid(b10243d8da054ee448d1afd197847af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/ball_green.fbx using Guid(b10243d8da054ee448d1afd197847af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4321f6c87b81952f5f6abbd502cba9') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/MiniGolf/rampSquare.fbx
+  artifactKey: Guid(4c4941257df811f46b574cbd92dbaa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/rampSquare.fbx using Guid(4c4941257df811f46b574cbd92dbaa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda9a3b635bbc8a929b2358c50aed17f') in 0.034973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/MiniGolf/crest.fbx
+  artifactKey: Guid(846c0af16d05fd04cbda5d7fbaa0b60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/crest.fbx using Guid(846c0af16d05fd04cbda5d7fbaa0b60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dde6061c6ef4479a81b6ec34dbd352') in 0.035459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/MiniGolf/narrowRound.fbx
+  artifactKey: Guid(a211e31987226ae41a8a05d65ccbfdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/narrowRound.fbx using Guid(a211e31987226ae41a8a05d65ccbfdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1438d896efcaf16a3d7f350835717471') in 0.032745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/MiniGolf/flag_red.fbx
+  artifactKey: Guid(0ca08d41f5e0b6141aa65b7e3e0ecafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/flag_red.fbx using Guid(0ca08d41f5e0b6141aa65b7e3e0ecafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d8938b99ab471c33f15b0822c4c163') in 0.034835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/MiniGolf/obstacleBlock.fbx
+  artifactKey: Guid(698e6a2fe4fadc24dbe835b3dac8a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/obstacleBlock.fbx using Guid(698e6a2fe4fadc24dbe835b3dac8a08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b7cf5928692546f40f5bb4b059db0') in 0.033090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/MiniGolf/bumpDown.fbx
+  artifactKey: Guid(9e4071c2536caee4b9e786a168b97653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/bumpDown.fbx using Guid(9e4071c2536caee4b9e786a168b97653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac99c32f5be7ef882d6a4fc4f67534') in 0.029234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/MiniGolf/corner.fbx
+  artifactKey: Guid(cf15ea6141a376644ab257290021d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/corner.fbx using Guid(cf15ea6141a376644ab257290021d488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0d7f083da4669de9eecb3c8913e436') in 0.032115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/MiniGolf/rampSharp.fbx
+  artifactKey: Guid(59472894048418247a8739f5f0ecca7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/rampSharp.fbx using Guid(59472894048418247a8739f5f0ecca7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f39fdb13c639e5ec5b184dd5543dc19') in 0.032997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/MiniGolf/splitStart.fbx
+  artifactKey: Guid(39b9191c04777ae43bd468d8499dabf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/splitStart.fbx using Guid(39b9191c04777ae43bd468d8499dabf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f262acc0a914145a437c897af92c8377') in 0.036158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/MiniGolf/side.fbx
+  artifactKey: Guid(32f23a42d7d848242b18384b4927f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/side.fbx using Guid(32f23a42d7d848242b18384b4927f973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e56cf22c1d3fd06a19c758dcb7786e2') in 0.034804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/MiniGolf/rampD.fbx
+  artifactKey: Guid(e889f12169dfbd04f8bf90a1f0ff1c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/rampD.fbx using Guid(e889f12169dfbd04f8bf90a1f0ff1c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c23b8aaa2aedbcb37143269124559f') in 0.032501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/MiniGolf/end.fbx
+  artifactKey: Guid(bb374927765edef40a01f9f2d3056192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/end.fbx using Guid(bb374927765edef40a01f9f2d3056192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a915b8df267889a224c55eb24fceb8') in 0.032765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/MiniGolf/roundCornerB.fbx
+  artifactKey: Guid(190eae4bbfb0ff846a14a91d611fcf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/roundCornerB.fbx using Guid(190eae4bbfb0ff846a14a91d611fcf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92a799234829ba59f27c3a5f70ef6db') in 0.034822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/MiniGolf/club_green.fbx
+  artifactKey: Guid(ee7910ffc957829499693e304f88da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/MiniGolf/club_green.fbx using Guid(ee7910ffc957829499693e304f88da71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e723fd471c3c697109ca0658c91a2a9f') in 0.046421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.559381 seconds.
+  path: Assets/Material/Line Material.mat
+  artifactKey: Guid(1d303dd913ec1aa479397145df4251df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Line Material.mat using Guid(1d303dd913ec1aa479397145df4251df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede0721dc3b382da0fe9762fa671ea97') in 0.018928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.864191 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.009998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.704528 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(a86b5517b0dbb4b438edbd6e3e3df61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(a86b5517b0dbb4b438edbd6e3e3df61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efe004d13334728749a998034670d34') in 0.009090 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005274 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.765 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1766ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1376ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (433ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (634ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.1 KB). Loaded Objects now: 3878.
+Memory consumption went from 121.6 MB to 121.6 MB.
+Total: 3.968800 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.395000 ms MarkObjects: 3.127800 ms  DeleteObjects: 0.092600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (883ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.3 KB). Loaded Objects now: 3881.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 4.660700 ms (FindLiveObjects: 0.267100 ms CreateObjectMapping: 0.162700 ms MarkObjects: 4.148400 ms  DeleteObjects: 0.080700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007727 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1704ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (374ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.2 KB). Loaded Objects now: 3884.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 3.186700 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.171200 ms MarkObjects: 2.564000 ms  DeleteObjects: 0.167400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1514.153054 seconds.
+  path: Assets/Script
+  artifactKey: Guid(d79c84d29ba2ea443b0c95508c8d25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(d79c84d29ba2ea443b0c95508c8d25a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321e112a6b2c5d2ca85a90067c3c9f96') in 0.012025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.193429 seconds.
+  path: Assets/Script/MainMenu.cs
+  artifactKey: Guid(c7e570f24da4bcf468aaca5e9329a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MainMenu.cs using Guid(c7e570f24da4bcf468aaca5e9329a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36cde5bc3c00e8d2b13f1beab90fc10') in 0.034846 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.1 KB). Loaded Objects now: 3888.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.968800 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.142500 ms MarkObjects: 2.493100 ms  DeleteObjects: 0.076000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.260434 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39bb56492cd9d5e86fcc5bf315715b1') in 0.011943 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Project 2021\MiniGolf\MiniGolfProject\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3358 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (79.1 KB). Loaded Objects now: 3892.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.663300 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.188500 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.029146 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6647264a9869e21e78dd27906afe3fdf') in 0.011059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.906707 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781705a7a132e9b8115b7fb1c4a797eb') in 0.004009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.707655 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5776eafba0a3eb70c83cd1eac938d398') in 0.002118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.983386 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8fdf9350c170d179ed55dce7b93864') in 0.002942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.781896 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4905b56aa63e682bf5f82e2b50ab189a') in 0.003714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.997880 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccc68d0b63da91e7b1d38c1b74f3492') in 0.255643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.302585 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2ccb50dd9dac5d0c15e97945c6d1fe') in 0.003061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.389304 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6525aba565ecdf589b42c5bae29e883') in 0.002489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.765232 seconds.
+  path: Assets/Script/PlayerRecord.cs
+  artifactKey: Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerRecord.cs using Guid(6fe9f83c25d5dcf40b604abc2cd59cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8eda4d4829ca96118288c9e000a1bf') in 0.002371 seconds 
