@@ -2,16 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-MiniGolf/[Ll]ibrary/
-MiniGolf/[Tt]emp/
-MiniGolf/[Oo]bj/
-MiniGolf/[Bb]uild/
-MiniGolf/[Bb]uilds/
-MiniGolf/[Ll]ogs/
-MiniGolf/[Mm]emoryCaptures/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!MiniGolf/[Aa]ssets/**/*.meta
+!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # MiniGolf/[Aa]ssets/AssetStoreTools*
