@@ -208,7 +208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.55
+  m_fontSize: 32.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -564,10 +564,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level:
   - Level 1
+  - Level 2
+  - Level 3
   playerColours:
   - {r: 1, g: 0, b: 0, a: 0}
   - {r: 0, g: 0.29986405, b: 1, a: 0}
+  - {r: 0.3890928, g: 1, b: 0, a: 0}
+  - {r: 0, g: 1, b: 0.95434356, a: 0}
   - {r: 1, g: 0.989607, b: 0, a: 0}
+  - {r: 1, g: 0, b: 0.8624263, a: 0}
+  - {r: 1, g: 0.6834848, b: 0, a: 0}
   levelIndex: 0
 --- !u!4 &532280695
 Transform:
@@ -1347,7 +1353,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.4
+  m_fontSize: 29.3
   m_fontSizeBase: 20.9
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1560,7 +1566,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.4
+  m_fontSize: 35.15
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1881,7 +1887,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.65
+  m_fontSize: 54.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -15,6 +15,8 @@ public class BallController : MonoBehaviour
     public float minHoleTime;
     public Transform startPos;
     public levelmanager levelmanager;
+    public AudioClip puttSound,holeSound;
+    public ParticleSystem holeParti,puttsParti;
 
     private int putts;
     private Rigidbody ball;
@@ -24,8 +26,11 @@ public class BallController : MonoBehaviour
     private float power;
     private float holeTime;
     private Vector3 lastPosition;
+    private AudioSource audioSource;
     private void Awake()
     {
+        puttsParti = GetComponentInChildren<ParticleSystem>();
+        audioSource = GetComponent<AudioSource>();
         ball = GetComponent<Rigidbody>();
         ball.maxAngularVelocity = 1000;
         line = GetComponent<LineRenderer>();
@@ -36,7 +41,7 @@ public class BallController : MonoBehaviour
     private void Update()
     {
         
-        if(ball.velocity.magnitude < 0.01f)
+        if (ball.velocity.magnitude < 0.01f)
         {
             getInput();
         }
@@ -85,6 +90,9 @@ public class BallController : MonoBehaviour
     private void putt()
     {
         lastPosition = transform.position;
+       
+        audioSource.PlayOneShot(puttSound);
+        puttsParti.Play();
         ball.AddForce(Quaternion.Euler(0, angle, 0) * Vector3.forward * maxPower * power , ForceMode.Impulse);
         power = 0;
         powerSlider.value = 0;
@@ -111,12 +119,21 @@ public class BallController : MonoBehaviour
         }
             
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "hole")
+        {
+            audioSource.PlayOneShot(holeSound);
+            holeParti.Play();
+        }
+    }
     private void CountHoleTime()
     {
         holeTime += Time.deltaTime;
-
-        if(holeTime >= minHoleTime)
+        
+        if (holeTime >= minHoleTime)
         {
+            
             levelmanager.NextPlayer(putts);
             holeTime = 0;
         }
@@ -126,6 +143,7 @@ public class BallController : MonoBehaviour
     {
         if(other.tag == "hole")
         {
+            
               CountHoleTime();
             
         }

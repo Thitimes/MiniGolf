@@ -330,3 +330,14 @@ MiniGolfProject/Library/InspectorExpandedItems.asset
 MiniGolfProject/Library/LastSceneManagerSetup.txt
 MiniGolfProject/Library/SceneVisibilityState.asset
 MiniGolfProject/Library/SourceAssetDB
+*.o
+*.uxml
+*.asmdef
+*.bin
+*.js
+*.bin
+*.yaml
+*.md5
+*.meta
+*.cs
+*.bc

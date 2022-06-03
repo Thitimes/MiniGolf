@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class levelmanager : MonoBehaviour
 {
     public BallController ball;
+    
     public TextMeshProUGUI labelPlayerName;
 
     private PlayerRecord playerRecord;
@@ -20,6 +21,8 @@ public class levelmanager : MonoBehaviour
     private void SetUpPlayer()
     {
         ball.SetUpBall(playerRecord.playerColours[playerIndex]);
+        ParticleSystem.MainModule main = ball.puttsParti.main;
+        main.startColor = new Color(playerRecord.playerColours[playerIndex].r, playerRecord.playerColours[playerIndex].g, playerRecord.playerColours[playerIndex].b,1.0f);
         labelPlayerName.text = playerRecord.playerList[playerIndex].name;
     }
     public void NextPlayer(int previousPutts)
@@ -35,7 +38,7 @@ public class levelmanager : MonoBehaviour
         {
             if(playerRecord.levelIndex == playerRecord.level.Length - 1)
             {
-                //load the score board
+                SceneManager.LoadScene("ScoreBoard");
 
             }
             else
